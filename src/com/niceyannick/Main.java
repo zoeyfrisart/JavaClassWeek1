@@ -9,6 +9,7 @@ public class Main {
         // Ask for the amount of students
         System.out.println("Please enter the size of your group and press [ENTER]");
         int groupSize = console.nextInt();
+        console.nextLine();
 
         Student[] students = new Student[groupSize];
 
